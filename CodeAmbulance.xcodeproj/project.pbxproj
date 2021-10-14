@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		79DAB4CB271861D000D1AB80 /* CodeAmbulanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4CA271861D000D1AB80 /* CodeAmbulanceApp.swift */; };
-		79DAB4CD271861D000D1AB80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4CC271861D000D1AB80 /* ContentView.swift */; };
+		79DAB4CD271861D000D1AB80 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4CC271861D000D1AB80 /* DashboardView.swift */; };
 		79DAB4CF271861D100D1AB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DAB4CE271861D100D1AB80 /* Assets.xcassets */; };
 		79DAB4D2271861D100D1AB80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DAB4D1271861D100D1AB80 /* Preview Assets.xcassets */; };
 		79DAB4DD271861D100D1AB80 /* CodeAmbulanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4DC271861D100D1AB80 /* CodeAmbulanceTests.swift */; };
 		79DAB4E7271861D100D1AB80 /* CodeAmbulanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4E6271861D100D1AB80 /* CodeAmbulanceUITests.swift */; };
 		79DAB4E9271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4E8271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift */; };
+		79DAB4F8271868C700D1AB80 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4F7271868C700D1AB80 /* Activity.swift */; };
+		79DAB4FA2718690200D1AB80 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4F92718690200D1AB80 /* Post.swift */; };
+		79DAB4FC271869AC00D1AB80 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4FB271869AC00D1AB80 /* User.swift */; };
+		79DAB50127186BCB00D1AB80 /* Dump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50027186BCB00D1AB80 /* Dump.swift */; };
+		79DAB50327186D9B00D1AB80 /* Say.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50227186D9B00D1AB80 /* Say.swift */; };
+		79DAB50727186E6A00D1AB80 /* OptionalProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50627186E6A00D1AB80 /* OptionalProtocol.swift */; };
+		79DAB50B27186E7400D1AB80 /* With.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50927186E7400D1AB80 /* With.swift */; };
+		79DAB50C27186E7400D1AB80 /* Absurd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50A27186E7400D1AB80 /* Absurd.swift */; };
+		79DAB51027186E8100D1AB80 /* Environment+SubscriptByKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50D27186E8100D1AB80 /* Environment+SubscriptByKey.swift */; };
+		79DAB51127186E8100D1AB80 /* Throw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50E27186E8100D1AB80 /* Throw.swift */; };
+		79DAB51227186E8100D1AB80 /* View+ThrowingTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB50F27186E8100D1AB80 /* View+ThrowingTask.swift */; };
+		79DAB5152718746F00D1AB80 /* PostRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB5142718746F00D1AB80 /* PostRow.swift */; };
+		79DAB5172718758E00D1AB80 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB5162718758E00D1AB80 /* SampleData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,7 @@
 /* Begin PBXFileReference section */
 		79DAB4C7271861D000D1AB80 /* CodeAmbulance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAmbulance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DAB4CA271861D000D1AB80 /* CodeAmbulanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceApp.swift; sourceTree = "<group>"; };
-		79DAB4CC271861D000D1AB80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79DAB4CC271861D000D1AB80 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		79DAB4CE271861D100D1AB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		79DAB4D1271861D100D1AB80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		79DAB4D3271861D100D1AB80 /* CodeAmbulance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeAmbulance.entitlements; sourceTree = "<group>"; };
@@ -45,6 +58,19 @@
 		79DAB4E2271861D100D1AB80 /* CodeAmbulanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAmbulanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79DAB4E6271861D100D1AB80 /* CodeAmbulanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceUITests.swift; sourceTree = "<group>"; };
 		79DAB4E8271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		79DAB4F7271868C700D1AB80 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		79DAB4F92718690200D1AB80 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		79DAB4FB271869AC00D1AB80 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		79DAB50027186BCB00D1AB80 /* Dump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dump.swift; sourceTree = "<group>"; };
+		79DAB50227186D9B00D1AB80 /* Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Say.swift; sourceTree = "<group>"; };
+		79DAB50627186E6A00D1AB80 /* OptionalProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalProtocol.swift; sourceTree = "<group>"; };
+		79DAB50927186E7400D1AB80 /* With.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = With.swift; sourceTree = "<group>"; };
+		79DAB50A27186E7400D1AB80 /* Absurd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Absurd.swift; sourceTree = "<group>"; };
+		79DAB50D27186E8100D1AB80 /* Environment+SubscriptByKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Environment+SubscriptByKey.swift"; sourceTree = "<group>"; };
+		79DAB50E27186E8100D1AB80 /* Throw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Throw.swift; sourceTree = "<group>"; };
+		79DAB50F27186E8100D1AB80 /* View+ThrowingTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+ThrowingTask.swift"; sourceTree = "<group>"; };
+		79DAB5142718746F00D1AB80 /* PostRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRow.swift; sourceTree = "<group>"; };
+		79DAB5162718758E00D1AB80 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,8 +121,10 @@
 		79DAB4C9271861D000D1AB80 /* CodeAmbulance */ = {
 			isa = PBXGroup;
 			children = (
+				79DAB4FE27186BBC00D1AB80 /* Helpers */,
+				79DAB4F5271862E900D1AB80 /* Model */,
+				79DAB4FD27186A4500D1AB80 /* Features */,
 				79DAB4CA271861D000D1AB80 /* CodeAmbulanceApp.swift */,
-				79DAB4CC271861D000D1AB80 /* ContentView.swift */,
 				79DAB4CE271861D100D1AB80 /* Assets.xcassets */,
 				79DAB4D3271861D100D1AB80 /* CodeAmbulance.entitlements */,
 				79DAB4D0271861D100D1AB80 /* Preview Content */,
@@ -127,6 +155,81 @@
 				79DAB4E8271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift */,
 			);
 			path = CodeAmbulanceUITests;
+			sourceTree = "<group>";
+		};
+		79DAB4F5271862E900D1AB80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4F7271868C700D1AB80 /* Activity.swift */,
+				79DAB4F92718690200D1AB80 /* Post.swift */,
+				79DAB4FB271869AC00D1AB80 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79DAB4FD27186A4500D1AB80 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB5132718746000D1AB80 /* Dashboard */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		79DAB4FE27186BBC00D1AB80 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB50427186DA300D1AB80 /* Debug */,
+				79DAB50527186E6A00D1AB80 /* StdLib */,
+				79DAB50827186E7400D1AB80 /* FP */,
+				79DAB4FF27186BC200D1AB80 /* SwiftUI */,
+				79DAB5162718758E00D1AB80 /* SampleData.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		79DAB4FF27186BC200D1AB80 /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB50D27186E8100D1AB80 /* Environment+SubscriptByKey.swift */,
+				79DAB50E27186E8100D1AB80 /* Throw.swift */,
+				79DAB50F27186E8100D1AB80 /* View+ThrowingTask.swift */,
+			);
+			path = SwiftUI;
+			sourceTree = "<group>";
+		};
+		79DAB50427186DA300D1AB80 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB50027186BCB00D1AB80 /* Dump.swift */,
+				79DAB50227186D9B00D1AB80 /* Say.swift */,
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
+		79DAB50527186E6A00D1AB80 /* StdLib */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB50627186E6A00D1AB80 /* OptionalProtocol.swift */,
+			);
+			path = StdLib;
+			sourceTree = "<group>";
+		};
+		79DAB50827186E7400D1AB80 /* FP */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB50927186E7400D1AB80 /* With.swift */,
+				79DAB50A27186E7400D1AB80 /* Absurd.swift */,
+			);
+			path = FP;
+			sourceTree = "<group>";
+		};
+		79DAB5132718746000D1AB80 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4CC271861D000D1AB80 /* DashboardView.swift */,
+				79DAB5142718746F00D1AB80 /* PostRow.swift */,
+			);
+			path = Dashboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +362,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79DAB4CD271861D000D1AB80 /* ContentView.swift in Sources */,
+				79DAB50327186D9B00D1AB80 /* Say.swift in Sources */,
+				79DAB50727186E6A00D1AB80 /* OptionalProtocol.swift in Sources */,
+				79DAB4F8271868C700D1AB80 /* Activity.swift in Sources */,
+				79DAB4CD271861D000D1AB80 /* DashboardView.swift in Sources */,
+				79DAB51027186E8100D1AB80 /* Environment+SubscriptByKey.swift in Sources */,
+				79DAB50C27186E7400D1AB80 /* Absurd.swift in Sources */,
+				79DAB51127186E8100D1AB80 /* Throw.swift in Sources */,
+				79DAB51227186E8100D1AB80 /* View+ThrowingTask.swift in Sources */,
+				79DAB5152718746F00D1AB80 /* PostRow.swift in Sources */,
+				79DAB50B27186E7400D1AB80 /* With.swift in Sources */,
 				79DAB4CB271861D000D1AB80 /* CodeAmbulanceApp.swift in Sources */,
+				79DAB4FC271869AC00D1AB80 /* User.swift in Sources */,
+				79DAB4FA2718690200D1AB80 /* Post.swift in Sources */,
+				79DAB5172718758E00D1AB80 /* SampleData.swift in Sources */,
+				79DAB50127186BCB00D1AB80 /* Dump.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
