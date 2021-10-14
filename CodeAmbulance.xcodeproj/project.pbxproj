@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79DAB4CB271861D000D1AB80 /* CodeAmbulanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4CA271861D000D1AB80 /* CodeAmbulanceApp.swift */; };
+		79DAB4CD271861D000D1AB80 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4CC271861D000D1AB80 /* ContentView.swift */; };
+		79DAB4CF271861D100D1AB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DAB4CE271861D100D1AB80 /* Assets.xcassets */; };
+		79DAB4D2271861D100D1AB80 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79DAB4D1271861D100D1AB80 /* Preview Assets.xcassets */; };
+		79DAB4DD271861D100D1AB80 /* CodeAmbulanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4DC271861D100D1AB80 /* CodeAmbulanceTests.swift */; };
+		79DAB4E7271861D100D1AB80 /* CodeAmbulanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4E6271861D100D1AB80 /* CodeAmbulanceUITests.swift */; };
+		79DAB4E9271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DAB4E8271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79DAB4D9271861D100D1AB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DAB4BF271861D000D1AB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DAB4C6271861D000D1AB80;
+			remoteInfo = CodeAmbulance;
+		};
+		79DAB4E3271861D100D1AB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79DAB4BF271861D000D1AB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79DAB4C6271861D000D1AB80;
+			remoteInfo = CodeAmbulance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		79DAB4C7271861D000D1AB80 /* CodeAmbulance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeAmbulance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DAB4CA271861D000D1AB80 /* CodeAmbulanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceApp.swift; sourceTree = "<group>"; };
+		79DAB4CC271861D000D1AB80 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		79DAB4CE271861D100D1AB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79DAB4D1271861D100D1AB80 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		79DAB4D3271861D100D1AB80 /* CodeAmbulance.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CodeAmbulance.entitlements; sourceTree = "<group>"; };
+		79DAB4D8271861D100D1AB80 /* CodeAmbulanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAmbulanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DAB4DC271861D100D1AB80 /* CodeAmbulanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceTests.swift; sourceTree = "<group>"; };
+		79DAB4E2271861D100D1AB80 /* CodeAmbulanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAmbulanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DAB4E6271861D100D1AB80 /* CodeAmbulanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceUITests.swift; sourceTree = "<group>"; };
+		79DAB4E8271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeAmbulanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DAB4C4271861D000D1AB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DAB4D5271861D100D1AB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DAB4DF271861D100D1AB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79DAB4BE271861D000D1AB80 = {
+			isa = PBXGroup;
+			children = (
+				79DAB4C9271861D000D1AB80 /* CodeAmbulance */,
+				79DAB4DB271861D100D1AB80 /* CodeAmbulanceTests */,
+				79DAB4E5271861D100D1AB80 /* CodeAmbulanceUITests */,
+				79DAB4C8271861D000D1AB80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DAB4C8271861D000D1AB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4C7271861D000D1AB80 /* CodeAmbulance.app */,
+				79DAB4D8271861D100D1AB80 /* CodeAmbulanceTests.xctest */,
+				79DAB4E2271861D100D1AB80 /* CodeAmbulanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DAB4C9271861D000D1AB80 /* CodeAmbulance */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4CA271861D000D1AB80 /* CodeAmbulanceApp.swift */,
+				79DAB4CC271861D000D1AB80 /* ContentView.swift */,
+				79DAB4CE271861D100D1AB80 /* Assets.xcassets */,
+				79DAB4D3271861D100D1AB80 /* CodeAmbulance.entitlements */,
+				79DAB4D0271861D100D1AB80 /* Preview Content */,
+			);
+			path = CodeAmbulance;
+			sourceTree = "<group>";
+		};
+		79DAB4D0271861D100D1AB80 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4D1271861D100D1AB80 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		79DAB4DB271861D100D1AB80 /* CodeAmbulanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4DC271861D100D1AB80 /* CodeAmbulanceTests.swift */,
+			);
+			path = CodeAmbulanceTests;
+			sourceTree = "<group>";
+		};
+		79DAB4E5271861D100D1AB80 /* CodeAmbulanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				79DAB4E6271861D100D1AB80 /* CodeAmbulanceUITests.swift */,
+				79DAB4E8271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift */,
+			);
+			path = CodeAmbulanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79DAB4C6271861D000D1AB80 /* CodeAmbulance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DAB4EC271861D100D1AB80 /* Build configuration list for PBXNativeTarget "CodeAmbulance" */;
+			buildPhases = (
+				79DAB4C3271861D000D1AB80 /* Sources */,
+				79DAB4C4271861D000D1AB80 /* Frameworks */,
+				79DAB4C5271861D000D1AB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeAmbulance;
+			productName = CodeAmbulance;
+			productReference = 79DAB4C7271861D000D1AB80 /* CodeAmbulance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79DAB4D7271861D100D1AB80 /* CodeAmbulanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DAB4EF271861D100D1AB80 /* Build configuration list for PBXNativeTarget "CodeAmbulanceTests" */;
+			buildPhases = (
+				79DAB4D4271861D100D1AB80 /* Sources */,
+				79DAB4D5271861D100D1AB80 /* Frameworks */,
+				79DAB4D6271861D100D1AB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DAB4DA271861D100D1AB80 /* PBXTargetDependency */,
+			);
+			name = CodeAmbulanceTests;
+			productName = CodeAmbulanceTests;
+			productReference = 79DAB4D8271861D100D1AB80 /* CodeAmbulanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79DAB4E1271861D100D1AB80 /* CodeAmbulanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DAB4F2271861D100D1AB80 /* Build configuration list for PBXNativeTarget "CodeAmbulanceUITests" */;
+			buildPhases = (
+				79DAB4DE271861D100D1AB80 /* Sources */,
+				79DAB4DF271861D100D1AB80 /* Frameworks */,
+				79DAB4E0271861D100D1AB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79DAB4E4271861D100D1AB80 /* PBXTargetDependency */,
+			);
+			name = CodeAmbulanceUITests;
+			productName = CodeAmbulanceUITests;
+			productReference = 79DAB4E2271861D100D1AB80 /* CodeAmbulanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DAB4BF271861D000D1AB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					79DAB4C6271861D000D1AB80 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					79DAB4D7271861D100D1AB80 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 79DAB4C6271861D000D1AB80;
+					};
+					79DAB4E1271861D100D1AB80 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 79DAB4C6271861D000D1AB80;
+					};
+				};
+			};
+			buildConfigurationList = 79DAB4C2271861D000D1AB80 /* Build configuration list for PBXProject "CodeAmbulance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79DAB4BE271861D000D1AB80;
+			productRefGroup = 79DAB4C8271861D000D1AB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DAB4C6271861D000D1AB80 /* CodeAmbulance */,
+				79DAB4D7271861D100D1AB80 /* CodeAmbulanceTests */,
+				79DAB4E1271861D100D1AB80 /* CodeAmbulanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DAB4C5271861D000D1AB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DAB4D2271861D100D1AB80 /* Preview Assets.xcassets in Resources */,
+				79DAB4CF271861D100D1AB80 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DAB4D6271861D100D1AB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DAB4E0271861D100D1AB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DAB4C3271861D000D1AB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DAB4CD271861D000D1AB80 /* ContentView.swift in Sources */,
+				79DAB4CB271861D000D1AB80 /* CodeAmbulanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DAB4D4271861D100D1AB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DAB4DD271861D100D1AB80 /* CodeAmbulanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79DAB4DE271861D100D1AB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79DAB4E9271861D100D1AB80 /* CodeAmbulanceUITestsLaunchTests.swift in Sources */,
+				79DAB4E7271861D100D1AB80 /* CodeAmbulanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79DAB4DA271861D100D1AB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DAB4C6271861D000D1AB80 /* CodeAmbulance */;
+			targetProxy = 79DAB4D9271861D100D1AB80 /* PBXContainerItemProxy */;
+		};
+		79DAB4E4271861D100D1AB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79DAB4C6271861D000D1AB80 /* CodeAmbulance */;
+			targetProxy = 79DAB4E3271861D100D1AB80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		79DAB4EA271861D100D1AB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		79DAB4EB271861D100D1AB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		79DAB4ED271861D100D1AB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CodeAmbulance/CodeAmbulance.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeAmbulance/Preview Content\"";
+				DEVELOPMENT_TEAM = 76EHURWG2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.pteasima.CodeAmbulance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		79DAB4EE271861D100D1AB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CodeAmbulance/CodeAmbulance.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CodeAmbulance/Preview Content\"";
+				DEVELOPMENT_TEAM = 76EHURWG2W;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.pteasima.CodeAmbulance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		79DAB4F0271861D100D1AB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76EHURWG2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.pteasima.CodeAmbulanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeAmbulance.app/Contents/MacOS/CodeAmbulance";
+			};
+			name = Debug;
+		};
+		79DAB4F1271861D100D1AB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76EHURWG2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.pteasima.CodeAmbulanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeAmbulance.app/Contents/MacOS/CodeAmbulance";
+			};
+			name = Release;
+		};
+		79DAB4F3271861D100D1AB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76EHURWG2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.pteasima.CodeAmbulanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CodeAmbulance;
+			};
+			name = Debug;
+		};
+		79DAB4F4271861D100D1AB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 76EHURWG2W;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.pteasima.CodeAmbulanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CodeAmbulance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DAB4C2271861D000D1AB80 /* Build configuration list for PBXProject "CodeAmbulance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DAB4EA271861D100D1AB80 /* Debug */,
+				79DAB4EB271861D100D1AB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DAB4EC271861D100D1AB80 /* Build configuration list for PBXNativeTarget "CodeAmbulance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DAB4ED271861D100D1AB80 /* Debug */,
+				79DAB4EE271861D100D1AB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DAB4EF271861D100D1AB80 /* Build configuration list for PBXNativeTarget "CodeAmbulanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DAB4F0271861D100D1AB80 /* Debug */,
+				79DAB4F1271861D100D1AB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DAB4F2271861D100D1AB80 /* Build configuration list for PBXNativeTarget "CodeAmbulanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DAB4F3271861D100D1AB80 /* Debug */,
+				79DAB4F4271861D100D1AB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79DAB4BF271861D000D1AB80 /* Project object */;
+}
